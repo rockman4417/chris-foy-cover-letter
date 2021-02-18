@@ -1,0 +1,113 @@
+.line {
+  background-color: rgb(45, 99, 200);
+  width: 1035px;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgb(158, 184, 231),
+    rgb(45, 99, 200),
+    rgb(158, 184, 231)
+  );
+}
+
+.objective {
+  color: rgb(45, 99, 200);
+  font-weight: bold;
+  font-size: 120%;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+h2 {
+  color: rgb(45, 99, 200);
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+h1 {
+  color: rgb(45, 99, 200);
+  font-size: 250%;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.header-faded {
+  color: rgb(119, 126, 139);
+}
+
+.date {
+  color: rgb(119, 126, 139);
+  margin-bottom: 5px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.body-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1100px;
+  padding: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  margin-right: 60px;
+}
+
+ul {
+  list-style: none;
+}
+
+.dash {
+  width: 15px;
+  height: 1px;
+  background-color: black;
+  margin-right: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  height: 20px;
+}
+
+.education-content {
+  margin-top: 5px;
+}
+
+.content-container {
+  margin-left: 110px;
+  margin-bottom: 50px;
+  margin-top: 5px;
+}
+
+.title-description {
+  margin-left: 5px;
+}
+
+.company-name {
+  color: rgb(119, 126, 139);
+}
+
+p {
+  line-height: 30px;
+  margin-bottom: 15px;
+}
